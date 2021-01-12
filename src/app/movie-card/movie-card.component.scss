@@ -1,0 +1,20 @@
+.card {
+  margin-bottom: 15px;
+  min-height: 600px;
+  max-height: 650px;
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.btn.btn-primary {
+  position: absolute;
+  margin-bottom: 20px;
+  bottom: 0;
+}
+p {
+  height: 200px;
+  overflow-y: scroll;
+}

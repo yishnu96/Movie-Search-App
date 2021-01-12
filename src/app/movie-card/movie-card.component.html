@@ -1,0 +1,16 @@
+<div class="card">
+	<img
+    [src]="'https://image.tmdb.org/t/p/w500/' + movie.backdrop_path"
+    class="card-img-top"
+    [alt]="movie.original_title">
+	<div class="card-body">
+		<h5 class="card-title">
+      {{ movie.original_title  }}
+			<span class="badge badge-primary">{{ movie.release_date  }}</span>
+    </h5>
+    <strong>RATING : {{movie.vote_average}} </strong>
+		<p class="card-text">
+      {{ movie.overview }}
+    </p>
+	</div>
+</div>
